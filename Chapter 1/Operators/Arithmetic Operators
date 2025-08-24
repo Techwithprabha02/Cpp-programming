@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std ;
+
+int main() {
+    int a,b;
+    int Add, sub,multi;
+    float div;
+    cout<<"Enter the value of a";
+    cin>>a;
+    cout<<"Enter the value of b";
+    cin>>b;
+    
+    Add=a+b;
+    cout<<"Addition is :"<<Add<<endl;
+    
+    sub=a-b;
+    cout<<"Subtract is:"<<sub<<endl;
+    
+    multi=a*b;
+    cout<<"multiplication  is :"<<multi<<endl;
+    
+    div=a/b;
+    cout<<"division is"<<div<<endl;
+    return 0;
+}
