@@ -1,0 +1,25 @@
+// check you are eligible for vote or not
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int Age;
+    string Nationality="Indian";
+    
+    cout<<"Enter the age"<<endl;
+    cin>>Age;
+    
+    cout<<"Enter the Nationality"<<endl;
+    cin>>Nationality;
+    
+    if ((Age>18) && ( Nationality=="Indian" ) ) {
+        cout<<"You are eligible for Vote"<<endl;
+    }
+    
+    else {
+        cout<<"you are not eligible for Vote"<<endl;
+    }
+    
+    return 0;
+}
